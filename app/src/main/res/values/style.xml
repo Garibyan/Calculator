@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="numberButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:height">100dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/green</item>
+        <item name="android:onClick">onNumberClick</item>
+    </style>
+
+    <style name="operationButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:height">100dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/orange</item>
+        <item name="android:onClick">onOperationClick</item>
+    </style>
+
+    <style name="cleanButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:height">100dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:onClick">onCleanAllClick</item>
+    </style>
+
+    <style name="pointButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:height">100dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:onClick">onPointClick</item>
+    </style>
+
+</resources>
